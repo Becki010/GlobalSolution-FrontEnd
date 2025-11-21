@@ -176,6 +176,18 @@ body {
     width: auto;     
     object-fit: contain;
 }
+#imagem-destaque {
+    background-color: white; 
+}
+
+.imagem-proposta {
+    max-width: 35%; 
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+    margin: 30px auto; 
+    display: block; 
+}
 
 @media (max-width: 768px) {
     .menu-navegacao {
@@ -198,5 +210,9 @@ body {
     }
     .redes-sociais {
         margin-top: 10px;
+    }
+}
+.imagem-proposta {
+        max-width: 95%;
     }
 }
