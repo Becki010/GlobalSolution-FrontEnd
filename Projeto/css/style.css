@@ -171,6 +171,11 @@ body {
 .redes-sociais a:hover {
     color: var(--cor-primaria);
 }
+.logo img {
+    height: 70px;      
+    width: auto;     
+    object-fit: contain;
+}
 
 @media (max-width: 768px) {
     .menu-navegacao {
